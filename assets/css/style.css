@@ -5,6 +5,7 @@ header {
     z-index: 100;
     background-attachment: fixed;
     overflow: hidden;
+    background-position: center;
 }
 .navbar {
     background: rgba(24, 23, 23, 0.8);
@@ -408,6 +409,7 @@ header {
 }
 .photos {
     background-color: black;
+    overflow: hidden;
 }
 .photos h1 {
     color: rgb(228, 170, 99);
