@@ -1,0 +1,444 @@
+header {
+    height: 100vh;
+    background: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('hero-bg.jpeg');
+    background-size: cover;
+    z-index: 100;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.navbar {
+    background: rgba(24, 23, 23, 0.8);
+    border-bottom: thin solid rgb(170, 170, 170);
+}
+.navbar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}  
+  .toggler-icon {
+    width: 1.5em;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 400ms ease-in-out;
+  }
+
+  .toggler-icon span {
+    display: block;
+    position: absolute;
+    height: 0.175em;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 400ms ease-in-out;
+  }
+  
+  .toggler-icon span:nth-child(1) {
+    top: 0em;
+  }
+  
+  .toggler-icon span:nth-child(2),
+  .toggler-icon span:nth-child(3) {
+    top: 0.5em;
+  }
+  
+  .toggler-icon span:nth-child(4) {
+    top: 1em;
+  }
+  
+  .toggler-icon.open span:nth-child(1) {
+    top: 0.55em;
+    width: 0%;
+    left: 50%;
+  }
+  
+  .toggler-icon.open span:nth-child(2) {
+    transform: rotate(45deg);
+  }
+  
+  .toggler-icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  
+  .toggler-icon.open span:nth-child(4) {
+    top: 0.45em;
+    width: 0%;
+    left: 50%;
+  }
+.nav-w:hover {
+    color: rgb(192, 155, 99);
+    transition: 0.2s;
+}
+.nav-w {
+    color: rgb(225, 232, 238);
+    margin-left: 20px;
+}
+#nav .nav-item a:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  background: none repeat scroll 0 0 transparent;
+  background: #fff;
+  transition: width 300ms ease 0s, left 300ms ease 0s;
+  
+}
+
+#nav li a:hover,
+#nav li:hover > a {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+#nav li a:hover:after,
+#nav li:hover > a:after {
+  width: 100%;
+  left: 0;
+}
+
+.head h1 {
+    position: relative;
+    top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(236, 162, 71);
+    font-family: 'Dancing Script', cursive;
+}
+.head h5 {
+    position: relative;
+    top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(217, 223, 228);
+    font-family: 'Dancing Script', cursive;
+}
+.head h4{
+    position: relative;
+    top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(213, 220, 226);
+    font-weight: 200;
+    background: rgba(0, 0, 0, 0.3);
+}
+.head h4 span {
+    color: rgb(228, 170, 99);
+    font-weight: 250;
+}
+.welcome h1 {
+    position: absolute;
+    top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(217, 223, 228);
+    font-weight: 135;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+.welcome span{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.butn {
+    position: absolute;
+    top: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.butn button{
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 25px 4px 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 27px 27px 27px 27px;
+    border-color: rgb(255, 160, 44);
+    border-width: 0.1rem;
+}
+.butn button span a {
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+.butn button:hover {
+    background: hsla(39, 100%, 60%, 0.8)
+}
+.head-foot svg {
+    color: rgb(228, 170, 99);
+}
+.head-foot h6 a{
+    color: white;
+    font-weight: 120;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px)
+{
+    .head h1 {
+        font-size: 60px;
+    }
+    .head-foot h6 a{
+        font-size: 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 900px) and (max-height: 500px)
+{
+    header {
+        height: auto;
+    }
+    .welcome h1 {
+        position: relative;
+        top: 5rem;
+    }
+    .butn {
+        position: relative;
+        top: 5rem;
+    }
+}
+.about {
+    height: auto;
+    background-image: url(hero-bg.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('hero-bg.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    z-index: 1000;
+}
+#image1, #image3, #image5 {
+    position: relative;
+    top: 27%;
+}
+#image2, #image4 {
+    position: relative;
+    top: 13%;
+}
+#image1, #image2 , #image3, #image4, #image5 {
+    display: inline-block;
+    border: thin solid rgb(192, 192, 192);
+    transition: 1s; 
+}
+#image2 , #image3, #image4, #image5 {
+    margin-left: -6px;
+}
+#image1.nav-scrolled, #image3.nav-scrolled, #image5.nav-scrolled, #image2.nav-scrolled, #image4.nav-scrolled{
+    position: relative;
+    top: 20%;
+    transition: ease-in-out 1.3s;
+}
+#image1.nav-scrolled {
+    border-right: none;
+}
+#image5.nav-scrolled{
+    border-left: none;
+}
+#image2.nav-scrolled, #image4.nav-scrolled {
+    border: none;
+}
+#image3.nav-scrolled{
+    border-left: none;
+    border-right: none;
+}
+#image1 img, #image2 img, #image3 img, #image4 img, #image5 img{
+    height: 25vw;
+    width: auto;
+}
+@media screen and (max-width: 768px)
+{
+    #image1 img, #image2 img, #image3 img, #image4 img, #image5 img{
+        width: auto;
+        height: 60vw;
+    }
+}
+.about-res{
+    position: relative;
+    overflow: hidden;
+}
+.about-res h1 {
+    color: rgb(228, 170, 99);
+    font-family: Marker Felt, 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.about-res h5{
+    margin-top: 20px;
+    font-family: fantasy;
+    color: rgb(217, 223, 228);
+}
+@media screen and (max-width: 768px)
+{
+    .about-res h1 {
+        font-weight: 500;
+    }
+    .about-res h5 {
+        font-size: 15px;
+        font-weight: 250;
+    }
+}
+
+ #menu {
+     height: auto;
+     background: rgba(0, 0, 0, 0.94);
+     overflow: hidden;
+ }
+ #menu h1 {
+     color: rgb(228, 170, 99);
+     font-family: 'Dancing Script', cursive;
+     font-size: 70px;
+ }
+#menu img {
+    width: 100px;
+    height: 100px;
+    animation: rotation 15s infinite linear;
+    border: thick solid hsl(44, 70%, 52%);
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(213, 220, 226);
+}
+.menu-content span {
+    font-size: 20px;
+    color: rgb(228, 170, 99);
+}
+.menu-item {
+    color: rgb(170, 170, 170);
+}
+.special img {
+    width: 200px;
+    height: 200px;
+    animation: rotation 15s infinite linear;
+}
+.special {
+    height: auto;
+    background-image: url(menu/special/background.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('menu/special/background.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.special h1 {
+    color: rgb(228, 170, 99);
+    font-family: Marker Felt, 'Dancing Script', cursive;
+    font-size: 70px;
+}
+.special h3 { 
+    color: rgb(228, 170, 99);
+    font-family: Marker Felt, 'Dancing Script', cursive;
+}
+.special p {
+    color: rgb(225, 232, 238);
+    font-family: fantasy;
+}
+.mob-btn {
+    display: none;
+}
+.special button{
+    border: none;
+    background: none;
+    color: hsla(33, 65%, 56%, 0.836);
+}
+@media screen and (max-width: 768px)
+{
+    .desktop-p {
+        display: none;
+    }
+    .mob-btn {
+        display: block;
+    }
+
+}
+.table {
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: -4px;
+}
+.table h1 {
+    color: rgb(228, 170, 99);
+    font-size: 70px;
+    font-family: Marker Felt, 'Dancing Script', cursive;
+}
+.table input {
+    border-color: rgb(228, 170, 99);
+    background: none;
+    color: white;
+}
+.table button {
+    background: none;
+    border-color: rgb(236, 162, 71);
+    border-radius: 35px;
+    color: white;
+    font-weight: 200;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.table button:hover {
+    background-color: rgb(236, 162, 71);
+}
+.photos {
+    background-color: black;
+}
+.photos h1 {
+    color: rgb(228, 170, 99);
+    font-size: 70px;
+    font-family: Marker Felt, 'Dancing Script', cursive;
+}
+.photos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid rgb(236, 162, 71);
+}
+
+.img-wrapper img {
+    -webkit-transition: all 7s ease;
+    -moz-transition: all 7s ease;
+    -ms-transition: all 7s ease;
+    -o-transition: all 7s ease;
+    transition: all 7s ease;
+    
+    vertical-align: middle;
+}
+
+.img-wrapper img:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+}
