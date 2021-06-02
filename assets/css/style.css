@@ -369,6 +369,9 @@ header {
     border: none;
     background: none;
     color: hsla(33, 65%, 56%, 0.836);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
 }
 @media screen and (max-width: 768px)
 {
