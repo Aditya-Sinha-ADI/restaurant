@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    background: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('hero-bg.jpeg');
+    background: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('../img/hero-bg.jpeg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -223,8 +223,7 @@ header {
 }
 .about {
     height: auto;
-    background-image: url(hero-bg.jpg);
-    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('hero-bg.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/about/hero-bg.jpg');
     background-size: cover;
     background-attachment:fixed;
     z-index: 1000;
@@ -342,8 +341,8 @@ header {
 }
 .special {
     height: auto;
-    background-image: url(menu/special/background.jpeg);
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('menu/special/background.jpeg');
+    background-image: url(assets/img/menu/special/background.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/menu/special/background.jpeg');
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
