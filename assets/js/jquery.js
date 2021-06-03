@@ -35,7 +35,6 @@ $(document).ready(function($) {
     $('.mob-btnn').click(function() {
       $('.mob-btn').css('display', 'block');
     });
-    setTimeout(function() {$('html').addClass("step-one");}, 1000);
     
     AOS.init();
   });

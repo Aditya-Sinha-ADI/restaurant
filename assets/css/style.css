@@ -108,8 +108,8 @@ header {
 }
 
 .head h1 {
-    position: relative;
-    top: 4rem;
+    position: absolute;
+    top: 35%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -117,54 +117,12 @@ header {
     text-align: center;
     color: rgb(236, 162, 71);
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-.head h1 span { 
-	-webkit-transition: all 2.5s;
-	-moz-transition: all 2.5s;
-	-o-transition: all 2.5s;
-}
-.head h1 span:nth-child(1) {
-    margin-left: -1450px;
- }
- .head h1 span:nth-child(2) {
-    margin-left: 1200px; 
- }
- .head h1 span:nth-child(3) {
-    margin-left: -1300px; 
- }
- .head h1 span:nth-child(4) {
-    margin-left: 1450px; 
- }
- .head h1 span:nth-child(5) {
-    margin-left: -1400px; 
- }
- .head h1 span:nth-child(6) {
-    margin-left: 1500px; 
- }
- .head h1 span:nth-child(7) {
-    margin-left: -1800px; 
- }
- .head h1 span:nth-child(8) {
-    margin-left: 1700px; 
- }
- .head h1 span:nth-child(9) {
-    margin-left: 1000px; 
- }
- .head h1 span:nth-child(10) {
-    margin-left: -1000px; 
- }
- .head h1 span:nth-child(11) {
-    margin-left: -2000px; 
- }
- .head h1 span:nth-child(12) {
-    margin-left: -3000px; 
- }
 
-.step-one .head h1 span { margin: 0; }
 .head h5 {
-    position: relative;
-    top: 3rem;
+    position: absolute;
+    top: 45%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -172,10 +130,11 @@ header {
     text-align: center;
     color: rgb(217, 223, 228);
     font-family: 'Dancing Script', cursive;
+    font-weight: 50;
 }
 .head h4{
-    top: 3rem;
-    position: relative;
+    position: absolute;
+    top: 50%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -201,6 +160,7 @@ header {
     color: rgb(217, 223, 228);
     font-weight: 135;
     background: rgba(0, 0, 0, 0.6);
+    display: none;
 
 }
 .welcome span{
@@ -217,7 +177,7 @@ header {
     text-align: center;
 }
 .butn button{
-    display: block;
+    display: none;
     color: white;
     margin-left: auto;
     margin-right: auto;
