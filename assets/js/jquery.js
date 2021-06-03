@@ -15,7 +15,7 @@ $(document).ready(function($) {
   });
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
-      if (scroll >= 450) {
+      if (scroll >= 400) {
       $('#image1').addClass('nav-scrolled');
       $('#image2').addClass('nav-scrolled');
       $('#image3').addClass('nav-scrolled');
@@ -35,5 +35,7 @@ $(document).ready(function($) {
     $('.mob-btnn').click(function() {
       $('.mob-btn').css('display', 'block');
     });
+    setTimeout(function() {$('html').addClass("step-one");}, 1000);
+    
     AOS.init();
   });

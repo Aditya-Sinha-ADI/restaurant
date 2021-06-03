@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    background: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('../img/hero-bg.jpeg');
+    background: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8) ), url('../img/hero-bg.jpg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -116,8 +116,52 @@ header {
     right: 0;
     text-align: center;
     color: rgb(236, 162, 71);
-    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.head h1 span { 
+	-webkit-transition: all 2.5s;
+	-moz-transition: all 2.5s;
+	-o-transition: all 2.5s;
+}
+.head h1 span:nth-child(1) {
+    margin-left: -1450px;
+ }
+ .head h1 span:nth-child(2) {
+    margin-left: 1200px; 
+ }
+ .head h1 span:nth-child(3) {
+    margin-left: -1300px; 
+ }
+ .head h1 span:nth-child(4) {
+    margin-left: 1450px; 
+ }
+ .head h1 span:nth-child(5) {
+    margin-left: -1400px; 
+ }
+ .head h1 span:nth-child(6) {
+    margin-left: 1500px; 
+ }
+ .head h1 span:nth-child(7) {
+    margin-left: -1800px; 
+ }
+ .head h1 span:nth-child(8) {
+    margin-left: 1700px; 
+ }
+ .head h1 span:nth-child(9) {
+    margin-left: 1000px; 
+ }
+ .head h1 span:nth-child(10) {
+    margin-left: -1000px; 
+ }
+ .head h1 span:nth-child(11) {
+    margin-left: -2000px; 
+ }
+ .head h1 span:nth-child(12) {
+    margin-left: -3000px; 
+ }
+
+.step-one .head h1 span { margin: 0; }
 .head h5 {
     position: relative;
     top: 3rem;
@@ -130,8 +174,8 @@ header {
     font-family: 'Dancing Script', cursive;
 }
 .head h4{
+    top: 3rem;
     position: relative;
-    top: 4rem;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -140,7 +184,7 @@ header {
     margin-top: 0px;
     color: rgb(213, 220, 226);
     font-weight: 200;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.15);
 }
 .head h4 span {
     color: rgb(228, 170, 99);
