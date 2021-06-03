@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    background: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8) ), url('../img/hero-bg.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.7) ), url('../img/hero-bg.jpg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -214,13 +214,25 @@ header {
     header {
         height: auto;
     }
+    .head h1 {
+        position: relative;
+        top: 6rem;
+    }
     .welcome h1 {
+        position: relative;
+        top: 15rem;
+    }
+    .head h5 {
         position: relative;
         top: 5rem;
     }
-    .butn {
+    .head h4 {
         position: relative;
-        top: 5rem;
+        top: 6rem;
+    }
+    .butn{
+        position: relative;
+        top: 6rem;
     }
 }
 .about {
