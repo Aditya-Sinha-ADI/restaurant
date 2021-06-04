@@ -311,8 +311,8 @@ header {
     color: rgb(170, 170, 170);
 }
 .special img {
-    width: 200px;
-    height: 200px;
+    width: 12rem;
+    height: 12rem;
     animation: rotation 15s infinite linear;
 }
 .special {
