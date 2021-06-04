@@ -439,7 +439,7 @@ header {
 .card1 {
     margin-left: auto;
     margin-right: auto;
-    border: thick solid rgb(255, 160, 44);
+    border: thick solid rgb(236, 162, 71);
     width: 30rem;
 }
 @media screen and (max-width: 768px)
@@ -455,7 +455,16 @@ header {
     color: rgb(236, 162, 71);
     font-weight: 700;
 }
-.quot h4 {
+.quot h5 {
     color: rgb(197, 202, 206);
 }
-
+.chef .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+  }
+  
+.chef .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #cda45e;
+}
