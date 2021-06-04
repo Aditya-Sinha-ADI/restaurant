@@ -315,6 +315,12 @@ header {
     height: 12rem;
     animation: rotation 15s infinite linear;
 }
+@media screen and (max-width:370px){
+    .special img {
+        width: 10rem;
+        height: 10rem;
+    }
+}
 .special {
     height: auto;
     background-image: url(assets/img/menu/special/background.jpeg);
