@@ -3,7 +3,7 @@ html{
 }
 header {
     height: 100vh;
-    background: linear-gradient( rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.7) ), url('../img/hero-bg.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.7) ), url('../img/hero-bg.jpeg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -276,7 +276,7 @@ header {
 
  #menu {
      height: auto;
-     background: rgba(0, 0, 0, 0.94);
+     background: black;
      overflow: hidden;
  }
  #menu h1 {
