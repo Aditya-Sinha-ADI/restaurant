@@ -426,3 +426,32 @@ header {
     -o-transform:scale(1.5); /* Opera */
     transform:scale(1.5);
 }
+
+.chef {
+    background-color: black;
+}
+
+.chef h1 {
+    color: rgb(228, 170, 99);
+    font-family: Marker Felt, 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.card1 {
+    margin-left: auto;
+    margin-right: auto;
+    border: thick solid rgb(255, 160, 44);
+    width: 30rem;
+}
+@media screen and (max-width: 768px)
+{
+    .card1 {
+        width: 20rem;
+    }
+}
+.card1 img {
+    border: thin solid rgb(236, 162, 71);
+}
+.card1 h2{
+    color: rgb(236, 162, 71);
+    font-weight: 700;
+}
