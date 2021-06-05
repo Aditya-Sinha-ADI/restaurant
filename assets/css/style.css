@@ -436,24 +436,26 @@ header {
     font-family: Marker Felt, 'Dancing Script', cursive;
     font-size: 50px;
 }
-.card1 {
+.card {
     margin-left: auto;
     margin-right: auto;
     border: thick solid rgb(236, 162, 71);
     width: 30rem;
+    overflow: hidden;
 }
 @media screen and (max-width: 768px)
 {
-    .card1 {
+    .card {
         width: 20rem;
     }
 }
-.card1 img {
+.card img {
     border: thin solid rgb(236, 162, 71);
 }
-.card1 h2{
-    color: rgb(236, 162, 71);
+.card h2{
+    color: rgb(218, 146, 53);
     font-weight: 700;
+    font-family: 'dancing script';
 }
 .quot h5 {
     color: rgb(197, 202, 206);
@@ -467,4 +469,26 @@ header {
   
 .chef .swiper-pagination .swiper-pagination-bullet-active {
     background-color: rgb(236, 162, 71);
+}
+.card .info{
+    position: absolute;
+    bottom: -4rem;
+    text-align: center;
+    overflow: hidden;
+}
+.card .info a {
+    display: inline-block;
+}
+
+.card:hover > .info {
+    bottom: 5rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.8rem;
+    padding: 2rem;
+    background: rgba(10, 10, 10, 0.3);
+    transition: 0.5s;
+    color: rgba(253, 185, 101, 0.815);
 }
