@@ -319,9 +319,9 @@ Image animation about page
     white-space: nowrap;
     overflow: hidden;
 }
-#leftgear, #rightgear {
-    width: 250%;
-    height: auto;
+#leftgear1, #rightgear1, #leftgear2, #rightgear2, #leftgear3, #rightgear3 {
+    width: auto;
+    height: 50%;
 }
 
 /*
