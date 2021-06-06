@@ -10,7 +10,7 @@ html{
 ------------------------------------------------------*/
 header {
     height: 100vh;
-    background: linear-gradient( rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6) ), url('../img/hero-bg.jpg');
+    background-image: linear-gradient( rgba(10, 10, 10, 0.65), rgba(10, 10, 10, 0.7) ), url('../img/hero-bg.jpg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -156,8 +156,14 @@ header {
     right: 0;
     text-align: center;
     color: rgb(236, 162, 71);
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 768px){
+    .head h1 {
+        font-weight: 500;
+    }
 }
 
 .head h5 {
@@ -258,6 +264,7 @@ Mobile home
     background-attachment: fixed;
     background-size: cover;
     z-index: 1000;
+    overflow: hidden;
 }
 /*
 Image animation about page 
@@ -299,6 +306,22 @@ Image animation about page
 #image1 img, #image2 img, #image3 img, #image4 img, #image5 img{
     height: 25vw;
     width: auto;
+}
+#gearbox1 {
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#gearbox2 {
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#leftgear, #rightgear {
+    width: 250%;
+    height: auto;
 }
 
 /*
@@ -349,6 +372,10 @@ Mobile about image
      color: rgb(228, 170, 99);
      font-family: fantasy,'Dancing Script', cursive;
      font-size: 80px;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     white-space: nowrap;
  }
  #menu h4 {
     font-family: 'dancing script';
