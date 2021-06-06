@@ -19,6 +19,7 @@ $(document).ready(function($) {
     var header3 = $("#image3");
     var header4 = $("#image4");
     var header5 = $("#image5");
+    var scroll1 = $("#nav");
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll >= 400) {
@@ -33,6 +34,11 @@ $(document).ready(function($) {
         header3.removeClass('nav-scrolled');
         header4.removeClass('nav-scrolled');
         header5.removeClass('nav-scrolled');
+      }
+      if (scroll >= 20) {
+        scroll1.addClass('scroll');
+      } else {
+        scroll1.removeClass('scroll');
       }
     });
     

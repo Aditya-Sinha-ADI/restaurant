@@ -10,7 +10,7 @@ html{
 ------------------------------------------------------*/
 header {
     height: 100vh;
-    background: linear-gradient( rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.7) ), url('../img/hero-bg.jpeg');
+    background: linear-gradient( rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6) ), url('../img/hero-bg.jpg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -22,13 +22,24 @@ header {
 # Top Top Nav Bar
 ------------------------------------------------------*/
 .navbar {
-    background: rgba(24, 23, 23, 0.8);
-    border-bottom: thin solid rgb(170, 170, 170);
+    background: none;
+    border-bottom: 0.2px solid rgb(170, 170, 170);
+}
+#nav.scroll {
+    background: rgba(20, 20, 20, 0.8);
+    transition: 0.3s;
 }
 .navbar ul li a{
     color: aliceblue;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px)
+{
+    .navbar {
+        background: rgba(20, 20, 20, 0.8);
+    }
 }
 
 /*----------------------------------------------------
@@ -145,7 +156,7 @@ header {
     right: 0;
     text-align: center;
     color: rgb(236, 162, 71);
-    font-weight: 400;
+    font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -225,14 +236,27 @@ Mobile home
     }
 }
 
+#mission {
+    background-color: black;
+}
+#mission h1 {
+    color: rgb(225, 232, 238);
+}
+#mission h3 {
+    color: rgb(197, 202, 206);
+}
+#mission p {
+    color: rgb(170, 170, 170);
+}
+
 /*----------------------------------------------------
 # About
 ------------------------------------------------------*/
 .about {
     height: auto;
-    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../img/about/hero-bg.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/about/hero-bg.jpg');
+    background-attachment: fixed;
     background-size: cover;
-    background-attachment:fixed;
     z-index: 1000;
 }
 /*
@@ -323,8 +347,12 @@ Mobile about image
  }
  #menu h1 {
      color: rgb(228, 170, 99);
-     font-family: 'Dancing Script', cursive;
-     font-size: 70px;
+     font-family: fantasy,'Dancing Script', cursive;
+     font-size: 80px;
+ }
+ #menu h4 {
+    font-family: 'dancing script';
+    font-weight: 700;
  }
 #menu img {
     width: 100px;
@@ -352,6 +380,12 @@ Mobile about image
 .menu-item {
     color: rgb(170, 170, 170);
 }
+
+
+/*----------------------------------------------------
+# Special
+------------------------------------------------------*/
+
 .special img {
     width: 12rem;
     height: 12rem;
@@ -363,10 +397,6 @@ Mobile about image
         height: 10rem;
     }
 }
-
-/*----------------------------------------------------
-# Special
-------------------------------------------------------*/
 .special {
     height: auto;
     background-image: url(assets/img/menu/special/background.jpeg);
