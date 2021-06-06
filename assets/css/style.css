@@ -319,9 +319,16 @@ Image animation about page
     white-space: nowrap;
     overflow: hidden;
 }
-#leftgear1, #rightgear1, #leftgear2, #rightgear2, #leftgear3, #rightgear3 {
-    width: auto;
-    height: 50%;
+#leftgear1, #leftgear2, #leftgear3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#rightgear1, #rightgear2, #rightgear3 {
+    position: absolute;
+    right: -15%;
 }
 
 /*
