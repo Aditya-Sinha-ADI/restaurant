@@ -42,20 +42,12 @@ $(document).ready(function($) {
       }
     });
 
-    var leftgear1 = document.getElementById("leftgear1"),
-rightgear1 = document.getElementById("rightgear1"),
-leftgear2 = document.getElementById("leftgear2"),
-rightgear2 = document.getElementById("rightgear2"),
-leftgear3 = document.getElementById("leftgear3"),
-rightgear3 = document.getElementById("rightgear3");
+    var leftgear = document.getElementById("leftgear"),
+rightgear = document.getElementById("rightgear");
     
 window.addEventListener("scroll", function() {
-    leftgear1.style.transform = "rotate("+window.pageYOffset+"deg)";
-    rightgear1.style.transform = "rotate(-"+window.pageYOffset+"deg)";
-    leftgear2.style.transform = "rotate("+window.pageYOffset+"deg)";
-    rightgear2.style.transform = "rotate(-"+window.pageYOffset+"deg)";
-    leftgear3.style.transform = "rotate("+window.pageYOffset+"deg)";
-    rightgear3.style.transform = "rotate(-"+window.pageYOffset+"deg)";
+    leftgear.style.transform = "rotate("+window.pageYOffset+"deg)";
+    rightgear.style.transform = "rotate(-"+window.pageYOffset+"deg)";
 });
 
 window.addEventListener("optimizedScroll", function() {

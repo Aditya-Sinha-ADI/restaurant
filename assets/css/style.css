@@ -2,7 +2,7 @@
 # applying to full html page 
 ------------------------------------------------------*/
 html{
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 /*----------------------------------------------------
@@ -10,7 +10,7 @@ html{
 ------------------------------------------------------*/
 header {
     height: 100vh;
-    background-image: linear-gradient( rgba(10, 10, 10, 0.65), rgba(10, 10, 10, 0.7) ), url('../img/hero-bg.jpg');
+    background-image: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('../img/hero-bg.jpg');
     background-size: cover;
     z-index: 100;
     background-attachment: fixed;
@@ -158,6 +158,7 @@ header {
     color: rgb(236, 162, 71);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
+    z-index: 10;
 }
 
 @media screen and (max-width: 768px){
@@ -222,7 +223,6 @@ header {
     font-weight: 120;
     text-decoration: none;
 }
-
 /*
 Mobile home 
 */
@@ -243,12 +243,13 @@ Mobile home
 }
 
 #mission {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
+    z-index: 1;
 }
-#mission h1 {
+#mission h2 {
     color: rgb(225, 232, 238);
 }
-#mission h3 {
+#mission h4 {
     color: rgb(197, 202, 206);
 }
 #mission p {
@@ -259,12 +260,14 @@ Mobile home
 # About
 ------------------------------------------------------*/
 .about {
-    height: auto;
+    height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/about/hero-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     z-index: 1000;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 /*
 Image animation about page 
@@ -307,29 +310,6 @@ Image animation about page
     height: 25vw;
     width: auto;
 }
-#gearbox1 {
-    display: flex;
-    justify-content: flex-end;
-    white-space: nowrap;
-    overflow: hidden;
-}
-#gearbox2 {
-    display: flex;
-    justify-content: flex-start;
-    white-space: nowrap;
-    overflow: hidden;
-}
-#leftgear1, #leftgear2, #leftgear3 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-#rightgear1, #rightgear2, #rightgear3 {
-    position: absolute;
-    right: -15%;
-}
 
 /*
 Mobile about image  
@@ -345,6 +325,7 @@ Mobile about image
 .about-res{
     position: relative;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .about-res h1 {
     color: rgb(228, 170, 99);
