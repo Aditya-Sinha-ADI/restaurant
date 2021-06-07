@@ -104,10 +104,6 @@ header {
  /*----------------------------------------------------
 # Nav bar hover
 ------------------------------------------------------*/
-.nav-w:hover {
-    color: rgb(192, 155, 99);
-    transition: 0.2s;
-}
 .nav-w {
     color: rgb(225, 232, 238);
     margin-left: 20px;
@@ -155,7 +151,7 @@ header {
     left: 0;
     right: 0;
     text-align: center;
-    color: rgb(236, 162, 71);
+    color: rgb(255, 170, 51);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     z-index: 10;
@@ -310,6 +306,13 @@ Image animation about page
     height: 25vw;
     width: auto;
 }
+.img img{
+    max-width: 100%;
+    max-height: 100%;
+    border: thick solid ;
+    border-block-start-color: rgb(134, 134, 151);
+    border-block-end-color: black;
+}
 
 /*
 Mobile about image  
@@ -338,7 +341,7 @@ Mobile about image
 .about-res h5{
     margin-top: 20px;
     font-family: fantasy;
-    color: rgb(217, 223, 228);
+    color: rgb(189, 189, 189);
 }
 @media screen and (max-width: 768px)
 {
@@ -376,7 +379,7 @@ Mobile about image
     width: 100px;
     height: 100px;
     animation: rotation 15s infinite linear;
-    border: thick solid hsl(44, 70%, 52%);
+    border: thick solid rgb(134, 134, 151);
 }
 @keyframes rotation {
     from {
@@ -488,6 +491,11 @@ Mobile about image
 .table button:hover {
     background-color: rgb(236, 162, 71);
 }
+
+/*----------------------------------------------------
+# Gallery
+------------------------------------------------------*/
+
 .photos {
     background-color: black;
     overflow: hidden;
