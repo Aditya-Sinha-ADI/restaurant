@@ -26,7 +26,7 @@ header {
     border-bottom: 0.2px solid rgb(170, 170, 170);
 }
 #nav.scroll {
-    background: rgba(20, 20, 20, 0.8);
+    background: rgba(0, 0, 0, 0.4);
     transition: 0.3s;
 }
 .navbar ul li a{
@@ -38,7 +38,7 @@ header {
 @media screen and (max-width: 768px)
 {
     .navbar {
-        background: rgba(20, 20, 20, 0.8);
+        background: rgba(0, 0, 0, 0.45);
     }
 }
 
@@ -118,7 +118,7 @@ header {
   bottom: 0;
   background: none repeat scroll 0 0 transparent;
   background: #fff;
-  transition: width 300ms ease 0s, left 300ms ease 0s;
+  transition: width 1.2s ease 0s, left 1.2s ease 0s;
   
 }
 
