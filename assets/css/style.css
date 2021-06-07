@@ -317,6 +317,9 @@ Mobile about image
 
 @media screen and (max-width: 768px)
 {
+    .about{
+        height: auto;
+    }
     #image1 img, #image2 img, #image3 img, #image4 img, #image5 img{
         width: auto;
         height: 60vw;
