@@ -265,47 +265,7 @@ Mobile home
     display: flex;
     align-items: center;
 }
-/*
-Image animation about page 
-*/
-#image1, #image3, #image5 {
-    position: relative;
-    top: 27%;
-}
-#image2, #image4 {
-    position: relative;
-    top: 13%;
-}
-#image1, #image2 , #image3, #image4, #image5 {
-    display: inline-block;
-    border: thin solid rgb(192, 192, 192);
-    transition: 1s; 
-}
-#image2 , #image3, #image4, #image5 {
-    margin-left: -6px;
-}
-#image1.nav-scrolled, #image3.nav-scrolled, #image5.nav-scrolled, #image2.nav-scrolled, #image4.nav-scrolled{
-    position: relative;
-    top: 20%;
-    transition: ease-in-out 1.3s;
-}
-#image1.nav-scrolled {
-    border-right: none;
-}
-#image5.nav-scrolled{
-    border-left: none;
-}
-#image2.nav-scrolled, #image4.nav-scrolled {
-    border: none;
-}
-#image3.nav-scrolled{
-    border-left: none;
-    border-right: none;
-}
-#image1 img, #image2 img, #image3 img, #image4 img, #image5 img{
-    height: 25vw;
-    width: auto;
-}
+
 .img img{
     max-width: 100%;
     max-height: 100%;
@@ -318,14 +278,10 @@ Image animation about page
 Mobile about image  
 */
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 991.99px)
 {
     .about{
         height: auto;
-    }
-    #image1 img, #image2 img, #image3 img, #image4 img, #image5 img{
-        width: auto;
-        height: 60vw;
     }
 }
 .about-res{
