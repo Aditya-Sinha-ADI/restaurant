@@ -364,8 +364,8 @@ Mobile about image
 ------------------------------------------------------*/
 
 .special img {
-    width: 12rem;
-    height: 12rem;
+    max-width: 80%;
+    max-height: 80%;
     animation: rotation 15s infinite linear;
 }
 @media screen and (max-width:370px){
@@ -392,7 +392,6 @@ Mobile about image
     font-family: Marker Felt, 'Dancing Script', cursive;
 }
 .special p {
-    color: rgb(225, 232, 238);
     font-family: fantasy;
 }
 .mob-btn {
@@ -406,6 +405,7 @@ Mobile about image
     margin-right: auto;
     margin-top: -1rem;
 }
+
 @media screen and (max-width: 768px)
 {
     .desktop-p {
@@ -416,7 +416,18 @@ Mobile about image
     }
 
 }
-
+.imag {
+    background-color: black;
+}
+.imag p {
+    color: white;
+}
+.ima {
+    background-color: white;
+}
+.ima p {
+    color: black;
+} 
 /*----------------------------------------------------
 # Book a table
 ------------------------------------------------------*/
