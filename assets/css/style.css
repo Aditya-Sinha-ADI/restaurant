@@ -358,7 +358,15 @@ Mobile about image
     color: rgb(170, 170, 170);
 }
 
-
+.full-menu button{
+    color: rgb(217, 223, 228);
+    background: none;
+    border: 2px solid hsla(39, 100%, 60%, 0.8);
+    border-radius: 30px;
+}
+.full-menu button:hover {
+    background: rgba(253, 185, 101, 0.815);
+}
 /*----------------------------------------------------
 # Special
 ------------------------------------------------------*/
