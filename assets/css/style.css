@@ -376,7 +376,6 @@ Mobile about image
 }
 .special {
     height: auto;
-    background-image: url(assets/img/menu/special/background.jpeg);
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/menu/special/background.jpeg');
     background-size: cover;
     background-attachment: fixed;
@@ -416,25 +415,78 @@ Mobile about image
     }
 
 }
-.imag {
-    background: black;
+.dark1, .dark2 {
     max-width: 100%;
     max-height: 100%;
-    border-bottom: thin solid white;
-    border-top: thin solid white;
 }
-.imag p {
+.dark1 p, .dark2 p {
     color: white;
 }
-.ima {
-    background-color: white;
+.dark1 {
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.dark2 {
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.light1 , .light2 {
     max-width: 100%;
     max-height: 100%;
     border-bottom: thin solid black;
     border-top: thin solid black;
+    padding: auto;
 }
-.ima p {
-    color: black;
+.light1 {
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.light2 {
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.light1 p, .light2 p {
+    color: white;
+} 
+.dark1:hover{
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d1.jpg');
+    background-position: center;
+    background-size: cover;
+
+    border-bottom: thin solid white;
+    border-top: thin solid white;
+    cursor: pointer;
+}
+ .dark2:hover{
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d3.jpg');
+    background-position: center;
+    background-size: cover;
+
+    border-bottom: thin solid white;
+    border-top: thin solid white;
+    cursor: pointer;
+ }
+  .light1:hover{
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d2.jpg');
+    background-position: center;
+    background-size: cover;
+
+    border-bottom: thin solid white;
+    border-top: thin solid white;
+    cursor: pointer;
+  }
+   .light2:hover{
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d4.jpg');
+    background-position: center;
+    background-size: cover;
+
+    border-bottom: thin solid white;
+    border-top: thin solid white;
+    cursor: pointer;
 } 
 /*----------------------------------------------------
 # Book a table
