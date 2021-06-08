@@ -423,12 +423,12 @@ Mobile about image
     color: white;
 }
 .dark1 {
-    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d1.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../assets/img/menu/special/d1.jpg');
     background-position: center;
     background-size: cover;
 }
 .dark2 {
-    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d3.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../assets/img/menu/special/d2.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -440,12 +440,12 @@ Mobile about image
     padding: auto;
 }
 .light1 {
-    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d2.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../assets/img/menu/special/d3.jpg');
     background-position: center;
     background-size: cover;
 }
 .light2 {
-    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../d4.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3) ),url('../../assets/img/menu/special/d4.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -453,7 +453,7 @@ Mobile about image
     color: white;
 } 
 .dark1:hover{
-    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d1.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../assets/img/menu/special/d1.jpg');
     background-position: center;
     background-size: cover;
 
@@ -462,7 +462,7 @@ Mobile about image
     cursor: pointer;
 }
  .dark2:hover{
-    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d3.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../assets/img/menu/special/d2.jpg');
     background-position: center;
     background-size: cover;
 
@@ -471,7 +471,7 @@ Mobile about image
     cursor: pointer;
  }
   .light1:hover{
-    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d2.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../assets/img/menu/special/d3.jpg');
     background-position: center;
     background-size: cover;
 
@@ -480,7 +480,7 @@ Mobile about image
     cursor: pointer;
   }
    .light2:hover{
-    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../d4.jpg');
+    background: linear-gradient( rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7) ),url('../../assets/img/menu/special/d4.jpg');
     background-position: center;
     background-size: cover;
 
