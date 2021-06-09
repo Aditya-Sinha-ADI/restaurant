@@ -652,6 +652,7 @@ Mobile about image
 #contact h1 {
     font-size: 50px;
     color: rgb(228, 170, 99);
+    font-family: Marker Felt, 'Dancing Script', cursive;
 }
 #contact span {
     vertical-align: middle;
@@ -686,3 +687,4 @@ Mobile about image
     color: #fff !important;
     font-weight: 100 !important;
 }
+
