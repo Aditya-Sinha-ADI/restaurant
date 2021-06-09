@@ -327,12 +327,9 @@ Mobile about image
  }
  #menu h1 {
      color: rgb(228, 170, 99);
-     font-family: fantasy,'Dancing Script', cursive;
+     font-family: Marker Felt,'Dancing Script', cursive;
      font-size: 80px;
-     overflow: hidden;
-     display: flex;
-     justify-content: center;
-     white-space: nowrap;
+     font-weight: 350;
  }
  #menu h4 {
     font-family: 'dancing script';
