@@ -12,10 +12,14 @@ header {
     height: 100vh;
     background-image: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('../img/hero-bg.jpg');
     background-size: cover;
-    z-index: 100;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
     overflow: hidden;
-    background-position: center;
+    transition: 0.1s;
 }
 
 /*----------------------------------------------------
@@ -247,7 +251,7 @@ Mobile home
     font-weight: 350;
 }
 #mission h5 {
-    color: rgb(197, 202, 206);
+    color: rgb(211, 216, 219);
     font-weight: 250;
 }
 #mission p {
@@ -649,7 +653,8 @@ Mobile about image
     font-size: 50px;
     color: rgb(228, 170, 99);
 }
-#contact h4 {
+#contact span {
+    vertical-align: middle;
     color: rgb(225, 232, 238);
     font-weight: 350;
 }
@@ -659,4 +664,25 @@ Mobile about image
 #contact p a {
     text-decoration: none;
     color: rgb(189, 189, 189);
+}
+#contact input {
+    border-color: rgb(228, 170, 99);
+    background: none;
+    color: white;
+}
+#contact button {
+    background: none;
+    border-color: rgb(236, 162, 71);
+    border-radius: 35px;
+    color: white;
+    font-weight: 200;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#contact button:hover {
+    background-color: rgb(236, 162, 71);
+}
+.name h1 {
+    color: #fff !important;
+    font-weight: 100 !important;
 }
