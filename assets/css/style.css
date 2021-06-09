@@ -242,14 +242,17 @@ Mobile home
     background-color: rgb(14, 14, 14);
     z-index: 1;
 }
-#mission h2 {
+#mission h3 {
     color: rgb(225, 232, 238);
+    font-weight: 350;
 }
-#mission h4 {
+#mission h5 {
     color: rgb(197, 202, 206);
+    font-weight: 250;
 }
 #mission p {
     color: rgb(170, 170, 170);
+    font-weight: 150;
 }
 
 /*----------------------------------------------------
@@ -257,7 +260,7 @@ Mobile home
 ------------------------------------------------------*/
 .about {
     height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/about/hero-bg.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/about/hero-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     z-index: 1000;
@@ -363,6 +366,7 @@ Mobile about image
     background: none;
     border: 2px solid hsla(39, 100%, 60%, 0.8);
     border-radius: 30px;
+    font-weight: 200;
 }
 .full-menu button:hover {
     background: rgba(253, 185, 101, 0.815);
@@ -635,4 +639,24 @@ Mobile about image
     background: rgba(10, 10, 10, 0.3);
     transition: 0.5s;
     color: rgba(253, 185, 101, 0.815);
+}
+
+#contact {
+    background: black;
+
+}
+#contact h1 {
+    font-size: 50px;
+    color: rgb(228, 170, 99);
+}
+#contact h4 {
+    color: rgb(225, 232, 238);
+    font-weight: 350;
+}
+#contact p {
+    color: rgb(189, 189, 189);
+}
+#contact p a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
 }
