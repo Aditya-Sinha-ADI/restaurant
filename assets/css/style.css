@@ -382,12 +382,6 @@ Mobile about image
     max-height: 80%;
     animation: rotation 15s infinite linear;
 }
-@media screen and (max-width:370px){
-    .special img {
-        width: 10rem;
-        height: 10rem;
-    }
-}
 .special {
     height: auto;
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/menu/special/background.jpeg');
