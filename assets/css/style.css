@@ -244,19 +244,20 @@ Mobile home
 
 #mission {
     background-color: rgb(14, 14, 14);
-    z-index: 1;
+    border-top: thin solid rgb(109, 109, 122);
+    border-bottom: thin solid rgb(109, 109, 122);
 }
 #mission h3 {
     color: rgb(225, 232, 238);
-    font-weight: 350;
+    font-weight: 400;
 }
 #mission h5 {
     color: rgb(211, 216, 219);
-    font-weight: 250;
+    font-weight: 300;
 }
 #mission p {
     color: rgb(170, 170, 170);
-    font-weight: 150;
+    font-weight: 200;
 }
 
 /*----------------------------------------------------
@@ -684,4 +685,10 @@ Mobile about image
     color: #fff !important;
     font-weight: 100 !important;
 }
-
+.social a {
+    text-decoration: none;
+    color: rgb(210, 170, 99);
+}
+.social a svg:hover {
+    color: rgb(223, 161, 80);
+}
