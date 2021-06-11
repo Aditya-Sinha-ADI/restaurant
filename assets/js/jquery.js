@@ -23,33 +23,6 @@ $(document).ready(function($) {
         scroll1.removeClass('scroll');
       }
     });
-
-    var leftgear = document.getElementById("leftgear"),
-rightgear = document.getElementById("rightgear");
-    
-window.addEventListener("scroll", function() {
-    leftgear.style.transform = "rotate("+window.pageYOffset+"deg)";
-    rightgear.style.transform = "rotate(-"+window.pageYOffset+"deg)";
-});
-
-window.addEventListener("optimizedScroll", function() {
-  ;(function() {
-    var throttle = function(type, name, obj) {
-        var obj = obj || window;
-        var running = false;
-        var func = function() {
-            if (running) { return; }
-            running = true;
-            requestAnimationFrame(function() {
-                obj.dispatchEvent(new CustomEvent(name));
-                running = false;
-            });
-        };
-        obj.addEventListener(type, func);
-    };
-    throttle ("scroll", "optimizedScroll");
-})();
-})
     
     $('.mob-btn').click(function() {
       $(this).css('display', 'none');
@@ -59,6 +32,35 @@ window.addEventListener("optimizedScroll", function() {
     });
   });
     
+  $('.bday').click(function(){
+    $('#bd').css('display', 'block');
+    $('.bday h4').css('color', 'rgb(228, 170, 99)');
+    $('.cparty h4').css('color', 'rgb(213, 220, 226)');
+    $('.private h4').css('color', 'rgb(213, 220, 226)');
+    $('#p').css('display', 'none');
+    $('#c').css('display', 'none')
+  });
+
+  $('.cparty').click(function(){
+    $('#c').css('display', 'block');
+    $('.cparty h4').css('color', 'rgb(228, 170, 99)');
+    $('.bday h4').css('color', 'rgb(213, 220, 226)');
+    $('.private h4').css('color', 'rgb(213, 220, 226)');
+    $('#p').css('display', 'none');
+    $('#bd').css('display', 'none');
+  });
+
+  $('.private').click(function(){
+    $('#p').css('display', 'block');
+    $('.private h4').css('color', 'rgb(228, 170, 99)');
+    $('.bday h4').css('color', 'rgb(213, 220, 226)');
+    $('.cparty h4').css('color', 'rgb(213, 220, 226)');
+    $('#c').css('display', 'none');
+    $('#bd').css('display', 'none');
+  });
+
+
+
   new Swiper('.chef-sider', {
     speed: 600,
     loop: true,

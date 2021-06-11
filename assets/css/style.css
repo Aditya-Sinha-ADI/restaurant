@@ -200,7 +200,6 @@ header {
     text-align: center;
 }
 .butn button{
-    color: white;
     padding: 4px 25px 4px 25px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 27px 27px 27px 27px;
@@ -213,7 +212,7 @@ header {
     color: white;
 }
 .butn button:hover {
-    background: hsla(39, 100%, 60%, 0.8)
+    background: hsla(39, 100%, 60%, 0.8);
 }
 .head-foot svg {
     color: rgb(228, 170, 99);
@@ -366,13 +365,14 @@ Mobile about image
 .full-menu button{
     color: rgb(217, 223, 228);
     background: none;
-    border: 2px solid hsla(39, 100%, 60%, 0.8);
+    border: 2px solid rgb(255, 160, 44);
     border-radius: 30px;
     font-weight: 200;
 }
 .full-menu button:hover {
-    background: rgba(253, 185, 101, 0.815);
+    background: hsla(39, 100%, 60%, 0.8);
 }
+
 /*----------------------------------------------------
 # Special
 ------------------------------------------------------*/
@@ -380,7 +380,7 @@ Mobile about image
 .special img {
     max-width: 80%;
     max-height: 80%;
-    animation: rotation 15s infinite linear;
+    animation: rotation 25s infinite linear;
 }
 .special {
     height: auto;
@@ -497,6 +497,45 @@ Mobile about image
     cursor: pointer;
 } 
 /*----------------------------------------------------
+# Events
+------------------------------------------------------*/
+#events {
+    background: black;
+    overflow: hidden;
+}
+#events h1 {
+    color: rgb(236, 162, 71);
+    font-size: 70px;
+    font-family: Marker Felt, 'Dancing Script', cursive;
+}
+#events a {
+    text-decoration: none;
+    color: rgb(213, 220, 226);
+    vertical-align: middle;
+    font-size: 20px;
+}
+.private h4 {
+    color: rgb(228, 170, 99);
+}
+.events-list li {
+    display: inline-block;
+    padding: 8px 12px 8px 12px;
+}
+.events-list li a h4:hover{
+    color: rgb(210, 170, 99);
+}
+#bd {
+    display: none;
+}
+#c {
+    display: none;
+}
+#p img, #bd img, #c img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+/*----------------------------------------------------
 # Book a table
 ------------------------------------------------------*/
 .table {
@@ -516,7 +555,7 @@ Mobile about image
 }
 .table button {
     background: none;
-    border-color: rgb(236, 162, 71);
+    border-color: rgb(255, 160, 44);
     border-radius: 35px;
     color: white;
     font-weight: 200;
@@ -524,7 +563,7 @@ Mobile about image
     padding-right: 1rem;
 }
 .table button:hover {
-    background-color: rgb(236, 162, 71);
+    background: hsla(39, 100%, 60%, 0.8);
 }
 
 /*----------------------------------------------------
@@ -665,7 +704,7 @@ Mobile about image
 }
 #contact button {
     background: none;
-    border-color: rgb(236, 162, 71);
+    border-color: rgb(255, 160, 44);
     border-radius: 35px;
     color: white;
     font-weight: 200;
@@ -673,7 +712,7 @@ Mobile about image
     padding-right: 1rem;
 }
 #contact button:hover {
-    background-color: rgb(236, 162, 71);
+    background: hsla(39, 100%, 60%, 0.8);
 }
 .name h1 {
     color: #fff !important;
