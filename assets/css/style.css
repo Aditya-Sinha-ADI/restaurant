@@ -29,6 +29,9 @@ header {
     background: none;
     border-bottom: 0.2px solid rgb(170, 170, 170);
 }
+header ul {
+    margin-left: -25px;
+}
 #nav.scroll {
     background: rgba(0, 0, 0, 0.4);
     transition: 0.3s;
@@ -297,7 +300,6 @@ Mobile about image
 }
 .about-res{
     position: relative;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .about-res h1 {
@@ -518,6 +520,9 @@ Mobile about image
 }
 .private h5 {
     color: rgb(228, 170, 99);
+}
+.events-list {
+    margin-left: -25px;
 }
 .events-list li {
     display: inline-block;
