@@ -34,31 +34,35 @@ $(document).ready(function($) {
     
   $('.bday').click(function(){
     $('#bd').css('display', 'block');
-    $('.bday h4').css('color', 'rgb(228, 170, 99)');
-    $('.cparty h4').css('color', 'rgb(213, 220, 226)');
-    $('.private h4').css('color', 'rgb(213, 220, 226)');
+    $('.bday h5').css('color', 'rgb(228, 170, 99)');
+    $('.cparty h5').css('color', 'rgb(213, 220, 226)');
+    $('.private h5').css('color', 'rgb(213, 220, 226)');
     $('#p').css('display', 'none');
     $('#c').css('display', 'none')
   });
 
   $('.cparty').click(function(){
     $('#c').css('display', 'block');
-    $('.cparty h4').css('color', 'rgb(228, 170, 99)');
-    $('.bday h4').css('color', 'rgb(213, 220, 226)');
-    $('.private h4').css('color', 'rgb(213, 220, 226)');
+    $('.cparty h5').css('color', 'rgb(228, 170, 99)');
+    $('.bday h5').css('color', 'rgb(213, 220, 226)');
+    $('.private h5').css('color', 'rgb(213, 220, 226)');
     $('#p').css('display', 'none');
     $('#bd').css('display', 'none');
   });
 
   $('.private').click(function(){
     $('#p').css('display', 'block');
-    $('.private h4').css('color', 'rgb(228, 170, 99)');
-    $('.bday h4').css('color', 'rgb(213, 220, 226)');
-    $('.cparty h4').css('color', 'rgb(213, 220, 226)');
+    $('.private h5').css('color', 'rgb(228, 170, 99)');
+    $('.bday h5').css('color', 'rgb(213, 220, 226)');
+    $('.cparty h5').css('color', 'rgb(213, 220, 226)');
     $('#c').css('display', 'none');
     $('#bd').css('display', 'none');
   });
 
+  $('.events-list a').click(function(e)
+{
+    e.preventDefault();
+});
 
 
   new Swiper('.chef-sider', {

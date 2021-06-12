@@ -290,6 +290,10 @@ Mobile about image
     .about{
         height: auto;
     }
+
+    .img img{
+        margin-top: 30px;
+    }
 }
 .about-res{
     position: relative;
@@ -511,15 +515,16 @@ Mobile about image
 #events a {
     text-decoration: none;
     color: rgb(213, 220, 226);
-    vertical-align: middle;
-    font-size: 20px;
 }
-.private h4 {
+.private h5 {
     color: rgb(228, 170, 99);
 }
 .events-list li {
     display: inline-block;
-    padding: 8px 12px 8px 12px;
+}
+.bday h5{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .events-list li a h4:hover{
     color: rgb(210, 170, 99);
@@ -534,6 +539,11 @@ Mobile about image
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
+}
+@media screen and (max-width: 768px){
+    .events-list li a h5 {
+        font-size: 1rem;
+    }
 }
 /*----------------------------------------------------
 # Book a table
