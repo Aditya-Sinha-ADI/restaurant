@@ -150,6 +150,7 @@ header ul {
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow: hidden;
+    transition: 1000000s;
 }
 .head h1 {
     margin-left: auto;
