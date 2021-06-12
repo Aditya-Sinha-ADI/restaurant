@@ -20,18 +20,6 @@ header {
     overflow: hidden;
     transition: 0.1s;
 }
-@media  screen and (max-width:768px) {
-    header{
-    background-image: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('../img/hero-bg-m.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    }
-}
 /*----------------------------------------------------
 # Top Top Nav Bar
 ------------------------------------------------------*/
@@ -168,7 +156,7 @@ header ul {
     left: 0;
     right: 0;
     text-align: center;
-    color: rgb(255, 170, 51);
+    color: rgb(219, 148, 60);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     z-index: 10;
@@ -216,7 +204,7 @@ header ul {
     padding: 4px 25px 4px 25px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 27px 27px 27px 27px;
-    border-color: rgb(255, 160, 44);
+    border-color: rgb(228, 170, 99);
     border-width: 0.1rem;
 }
 .butn button span a {
@@ -379,9 +367,9 @@ Mobile about image
 }
 
 .full-menu button{
-    color: rgb(217, 223, 228);
+    color: white;
     background: none;
-    border: 2px solid rgb(255, 160, 44);
+    border: 2px solid rgb(228, 170, 99);
     border-radius: 30px;
     font-weight: 200;
 }
@@ -580,7 +568,7 @@ Mobile about image
 }
 .table button {
     background: none;
-    border-color: rgb(255, 160, 44);
+    border-color: rgb(228, 170, 99);
     border-radius: 35px;
     color: white;
     font-weight: 200;
@@ -729,7 +717,7 @@ Mobile about image
 }
 #contact button {
     background: none;
-    border-color: rgb(255, 160, 44);
+    border-color:rgb(228, 170, 99) ;
     border-radius: 35px;
     color: white;
     font-weight: 200;
