@@ -150,18 +150,16 @@ header ul {
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow: hidden;
-    transition: 1000000s;
 }
 .head h1 {
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     text-align: center;
     color: rgb(219, 148, 60);
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-    z-index: 10;
+    font-family: Georgia, sans-serif;
 }
 
 @media screen and (max-width: 768px){
@@ -241,6 +239,9 @@ Mobile home
 {
     header {
         height: auto;
+    }
+    .head h1 {
+        margin-top: 5rem;
     }
 }
 
@@ -336,6 +337,7 @@ Mobile about image
      font-family: Marker Felt,'Dancing Script', cursive;
      font-size: 80px;
      font-weight: 350;
+     letter-spacing: 4px;
  }
  #menu h4 {
     font-family: 'dancing script';
