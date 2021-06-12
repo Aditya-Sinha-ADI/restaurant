@@ -20,7 +20,18 @@ header {
     overflow: hidden;
     transition: 0.1s;
 }
-
+@media  screen and (max-width:768px) {
+    header{
+    background-image: linear-gradient( rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5) ), url('../img/hero-bg-m.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+}
 /*----------------------------------------------------
 # Top Top Nav Bar
 ------------------------------------------------------*/
