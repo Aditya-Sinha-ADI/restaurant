@@ -33,7 +33,7 @@ $(document).ready(function($) {
   });
     
   $('.bday').click(function(){
-    $('#bd').css('display', 'block');
+    $('#bd').css('display', 'flex');
     $('.bday h5').css('color', 'rgb(228, 170, 99)');
     $('.cparty h5').css('color', 'rgb(213, 220, 226)');
     $('.private h5').css('color', 'rgb(213, 220, 226)');
@@ -42,7 +42,7 @@ $(document).ready(function($) {
   });
 
   $('.cparty').click(function(){
-    $('#c').css('display', 'block');
+    $('#c').css('display', 'flex');
     $('.cparty h5').css('color', 'rgb(228, 170, 99)');
     $('.bday h5').css('color', 'rgb(213, 220, 226)');
     $('.private h5').css('color', 'rgb(213, 220, 226)');
@@ -51,7 +51,7 @@ $(document).ready(function($) {
   });
 
   $('.private').click(function(){
-    $('#p').css('display', 'block');
+    $('#p').css('display', 'flex');
     $('.private h5').css('color', 'rgb(228, 170, 99)');
     $('.bday h5').css('color', 'rgb(213, 220, 226)');
     $('.cparty h5').css('color', 'rgb(213, 220, 226)');
@@ -69,7 +69,7 @@ $(document).ready(function($) {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 4000,
+      delay: 3000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',

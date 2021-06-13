@@ -558,6 +558,19 @@ Mobile about image
         font-size: 1rem;
     }
 }
+
+#events h2 {
+    color: rgb(217, 223, 228);
+    font-family: "Playfair Display", serif;
+}
+#events h3 {
+    color: rgb(210, 170, 99);
+}
+#events span {
+    vertical-align: middle;
+    color: rgb(213, 220, 226);
+    margin-left: 12px ;
+}
 /*----------------------------------------------------
 # Book a table
 ------------------------------------------------------*/
