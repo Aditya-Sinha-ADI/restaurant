@@ -252,6 +252,7 @@ Mobile home
 }
 #mission h3 {
     color: rgb(225, 232, 238);
+    font-family: "Playfair Display", serif;
     font-weight: 400;
 }
 #mission h5 {
@@ -312,6 +313,8 @@ Mobile about image
     margin-top: 20px;
     font-family: fantasy;
     color: rgb(189, 189, 189);
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
 }
 @media screen and (max-width: 768px)
 {
@@ -404,9 +407,11 @@ Mobile about image
 }
 .special h3 { 
     color: rgb(228, 170, 99);
-    font-family: Marker Felt, 'Dancing Script', cursive;
+    font-family: "Playfair Display", serif;
 }
 .special p {
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
     font-family: fantasy;
 }
 .mob-btn {
@@ -520,6 +525,10 @@ Mobile about image
     text-decoration: none;
     color: rgb(213, 220, 226);
 }
+.events-list li a h5{
+    font-family: "Playfair Display", serif;
+    font-weight: 350;
+}
 .private h5 {
     color: rgb(228, 170, 99);
 }
@@ -533,7 +542,7 @@ Mobile about image
     margin-left: 20px;
     margin-right: 20px;
 }
-.events-list li a h4:hover{
+.events-list li a h5:hover{
     color: rgb(210, 170, 99);
 }
 #bd {
