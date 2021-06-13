@@ -313,8 +313,8 @@ Mobile about image
     margin-top: 20px;
     font-family: fantasy;
     color: rgb(189, 189, 189);
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.7px;
 }
 @media screen and (max-width: 768px)
 {
@@ -410,8 +410,8 @@ Mobile about image
     font-family: "Playfair Display", serif;
 }
 .special p {
-    word-spacing: 1px;
-    letter-spacing: 0.5px;
+    word-spacing: 0.7px;
+    letter-spacing: 0.3px;
     font-family: fantasy;
 }
 .mob-btn {
