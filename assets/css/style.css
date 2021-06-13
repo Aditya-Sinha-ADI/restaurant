@@ -524,7 +524,7 @@ Mobile about image
 }
 .events-list li a h5{
     font-family: "Playfair Display", serif;
-    font-weight: 350;
+    font-weight: 400;
 }
 .private h5 {
     color: rgb(228, 170, 99);
@@ -712,9 +712,11 @@ Mobile about image
     color: rgba(253, 185, 101, 0.815);
 }
 
+footer {
+    margin-bottom: -8px;
+}
 #contact {
     background: black;
-
 }
 #contact h1 {
     font-size: 50px;
@@ -760,4 +762,7 @@ Mobile about image
 }
 .social a svg:hover {
     color: rgb(223, 161, 80);
+}
+.logo {
+    color: rgb(236, 162, 71);
 }
